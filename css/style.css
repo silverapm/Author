@@ -4,8 +4,11 @@
   margin: 0; }
 
 .navbar-header a {
-  margin-top: 30px;
-  font-family: 'Open Sans', sans-serif; }
+  margin-top: 30px; }
+  @media screen and (max-width: 767px) {
+    .navbar-header a {
+      margin-top: 0;
+      margin-bottom: 15px; } }
 
 .navbar-header a img:hover {
   width: 110%;
