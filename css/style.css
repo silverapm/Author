@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.navbar-header a {
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar-header a img:hover {
+  width: 110%;
+  margin-top: -2px;
+  margin-left: -3px; }
+
+#bs-example-navbar-collapse-1 a {
+  line-height: 100px;
+  text-align: center;
+  font-size: 15px;
+  color: #484c55;
+  font-family: 'Open Sans', sans-serif; }
+
+#bs-example-navbar-collapse-1 a:hover {
+  background-color: #f8f9fb;
+  color: #49cbcd;
+  border-bottom: solid 3px #49cbcd;
+  line-height: 98px; }
+
+.caruselcontainer {
+  text-align: center;
+  padding-top: 110px;
+  background-image: url("../images/bgtitle.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  max-width: 1170px;
+  height: 100%; }
+
+.caruselcontainer h1 {
+  color: white;
+  font: 63px/63px 'Open Sans'; }
+
+.caruselcontainer h2 {
+  max-width: 375px;
+  margin: auto;
+  color: white;
+  font: 23px/36px 'Open Sans'; }
+
+.caruselcontainer a {
+  margin-top: 63px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  line-height: 63px;
+  width: 231px;
+  background-color: transparent;
+  border: solid 3px white;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 100%;
+  font: 26px/63px 'Open Sans'; }
+
+.owl-nav {
+  position: absolute;
+  top: 257px;
+  width: 100%; }
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: 30px; }
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: 30px; }
+
+.owl-nav .owl-prev:before {
+  padding: 15px 18px 15px 18px;
+  border-radius: 250px;
+  background-color: white;
+  color: #49cbcd;
+  content: "\f053";
+  font-size: 20px;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+.owl-nav .owl-next:before {
+  padding: 15px 18px 15px 18px;
+  border-radius: 250px;
+  background-color: white;
+  color: #49cbcd;
+  font-size: 20px;
+  content: "\f054";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar-default {
+  background-color: white !important;
+  border: none !important; }
+
+/*# sourceMappingURL=style.css.map */
